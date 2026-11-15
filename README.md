@@ -7,7 +7,8 @@
 | 脚本 | 功能 | 版本 | 安装 |
 |---|---|---:|---|
 | **ao3.ac 浅黄护眼主题** | 为 ao3.ac 阅读页面设置浅黄色背景和深色正文，保留原有排版；不强制覆盖 Read Frog 译文颜色 | 1.0.0 | [安装脚本](https://raw.githubusercontent.com/solarpowerinncr/my-userscripts/master/ao3-ac-eye-care.user.js) · [查看源码](https://github.com/solarpowerinncr/my-userscripts/blob/master/ao3-ac-eye-care.user.js) |
-| **微博收藏直接查看 + 悬停内容预览** | 隐藏收藏列表中的二维码入口，增加直接查看链接，并在悬停时预览微博正文、图片和视频 | 1.0.0 | [安装脚本](https://raw.githubusercontent.com/solarpowerinncr/my-userscripts/master/weibo-fav-hover-preview.user.js) · [查看源码](https://github.com/solarpowerinncr/my-userscripts/blob/master/weibo-fav-hover-preview.user.js) |
+| **微博受限内容：直接查看 + 收藏管理** | 隐藏收藏列表中的二维码入口，增加直接查看链接，并在悬停时预览微博正文、图片和视频 | 1.0.0 | [安装脚本](https://raw.githubusercontent.com/solarpowerinncr/my-userscripts/master/weibo-mobile-only-tools.user.js) · [查看源码](https://github.com/solarpowerinncr/my-userscripts/blob/master/weibo-mobile-only-tools.user.js) |
+| **Read Frog 悬浮按钮触控拖动修复** | 修复 Read Frog 的悬浮按钮在安卓浏览器上无法拖动的问题 | 1.0.0 | [安装脚本](https://raw.githubusercontent.com/solarpowerinncr/my-userscripts/master/read-frog-floating-button-fix.user.js) · [查看源码](https://github.com/solarpowerinncr/my-userscripts/blob/master/read-frog-floating-button-fix.user.js) |
 
 ## 安装方法
 
@@ -19,7 +20,7 @@
 
 ## 自动更新
 
-两个脚本均已配置 `@updateURL` 和 `@downloadURL`，指向本仓库的 Raw 文件。
+脚本均已配置 `@updateURL` 和 `@downloadURL`，指向本仓库的 Raw 文件。
 
 更新脚本时：
 1. 修改对应的 `.user.js` 文件。
