@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         微博受限内容：直接查看 + 收藏管理
 // @namespace    weibo-mobile-only-tools
-// @version      1.0.0
-// @updateURL    https://raw.githubusercontent.com/solarpowerinncr/my-userscripts/master/weibo-fav-hover-preview.user.js
-// @downloadURL  https://raw.githubusercontent.com/solarpowerinncr/my-userscripts/master/weibo-fav-hover-preview.user.js
+// @version      1.1.0
 // @description  为微博“请至手机客户端查看”的内容添加直接查看、收藏和取消收藏；收藏瀑布流支持收藏状态切换
+// @updateURL    https://raw.githubusercontent.com/solarpowerinncr/my-userscripts/master/weibo-mobile-only-tools.user.js
+// @downloadURL  https://raw.githubusercontent.com/solarpowerinncr/my-userscripts/master/weibo-mobile-only-tools.user.js
+// @author       ChatGPT
 // @match        https://weibo.com/*
 // @match        https://www.weibo.com/*
 // @run-at       document-idle
@@ -1265,13 +1266,9 @@
      */
 
     console.log(
-        '[微博工具] 脚本已启动 v1.0.0'
+        '[微博工具] 脚本已启动 v1.1.0'
     );
 
     processAll();
 
 })();
-
-=
-↑
-↓
